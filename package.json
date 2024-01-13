@@ -1,0 +1,29 @@
+{
+    "name": "packmesher",
+    "version": "0.0.0",
+    "description": "Optimizes Java Edition Minecraft resource packs by analyzing 3D JSON models",
+    "repository": "https://github.com/Kas-tle/PackMesher.git",
+    "bugs": {
+        "url": "https://github.com/Kas-tle/PackMesher/issues"
+    },
+    "author": "Joshua Castle <packages@kastle.dev>",
+    "license": " AGPL-3.0-only",
+    "scripts": {
+        "build": "npx tsc"
+    },
+    "main": "dist/index.js",
+    "bin": {
+        "packmesher": "./dist/index.js"
+    },
+    "devDependencies": {
+        "@types/adm-zip": "^0.5.0",
+        "@types/node": "^18.16.3",
+        "ts-node": "^10.9.1",
+        "typescript": "^4.9.5"
+    },
+    "dependencies": {
+        "@inquirer/prompts": "^3.0.0",
+        "adm-zip": "^0.5.10",
+        "chalk": "4.1.2"
+    }
+}

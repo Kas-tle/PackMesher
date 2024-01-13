@@ -1,0 +1,5 @@
+# Ensure typescript dist can be published
+config.json
+package-lock.json
+target/
+*.zip
